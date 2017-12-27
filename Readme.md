@@ -6,7 +6,7 @@ Se ha desarrollado para la asignatura Modelos de Computación del Doble Grado en
 
 La aplicación en sí es muy sencilla. Al ejecutarse descarga los [datos horarios](http://www.mambiente.munimadrid.es/opendata/horario.txt) de las estaciones de medición de calidad del aire de la ciudad de Madrid. Posteriormente los escanea y busca los datos relacionados con el *dióxido de nitrógeno*.
 
-El protocolo de medidas a adoptar durante episodios de alta contaminación de dióxido de nitrógeno especifia que se activa el aviso por alta contaminación cuando se superan los 200µg/m^3 durante dos horas en al menos dos estaciones de una misma zona. Sin embargo, para facilitar el desarrollo, esta aplicación supone que se activa el aviso en cuanto se supera dicho límite **durante una hora** en una **única** estación.
+El protocolo de medidas a adoptar durante episodios de alta contaminación de dióxido de nitrógeno especifica que se activa el aviso por alta contaminación cuando se superan los 200µg/m^3 durante dos horas en al menos dos estaciones de una misma zona. Sin embargo, para facilitar el desarrollo, esta aplicación supone que se activa el aviso en cuanto se supera dicho límite **durante una hora** en una **única** estación.
 
 ## Compilación
 
