@@ -10,7 +10,13 @@ El protocolo de medidas a adoptar durante episodios de alta contaminación de di
 
 ## Compilación
 
-Simplemente ejecuta `make`:
+Es necesario tener las librerías de `curl` instaladas para poder descargar el archivo. Se pueden instalar en Ubuntu con:
+
+```
+$> sudo apt-get install libcurl-dev
+```
+
+Una vez instaladas, simplemente ejecuta `make`:
 
 ```
 $> make
